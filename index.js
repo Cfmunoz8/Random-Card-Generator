@@ -23,5 +23,5 @@ boton.addEventListener('click', _ => {
 let reload = () => {
     location.reload();
 };
-setTimeout (reload, );
+setTimeout (reload, 10000);
 
