@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+#card {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 5%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+#numero {
+    font-size: 160px;
+    display: flex;
+    align-items: center;
+}
+
+#pinta {
+font-size: 70px;
+display: flex;
+align-items: flex-start;
+}
+
+#pinta2 {
+    font-size: 70px;
+    display: flex;
+    align-items: flex-start;
+    transform: rotate(180deg);
+
+}
+button {
+    display: flex;
+    background-color: cadetblue;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-color: rgb(59, 126, 128);
+    padding: 5px;
+}
+
+#propiedades {
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+    margin-top: 20px;
+    color: aliceblue;
+}
